@@ -30,15 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./design/captura-de-tela-app-conselhos.jpeg)
 
 ### Links
 
@@ -53,60 +45,33 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Na movimentação do de objetos por meio da propriedade fiz uso da propriedade transform pela primeira vez, ela é uma ótima ferramenta de posicionamento de objetos e pode atender nossas necessidades em diversas situações, outra coisa que me ajudou a concluir o desafio foi o uso de InnerText para visualizar e inserir textos por meio do JS.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.card .dice {
+  transform: translateY(50%)
 }
 ```
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
+  proudOfThisFunc.innerText = "string"
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Consumir uma API foi uma experiência um pouco trabalhasa e desafiadora que teve um resultado incrível, pretendo continuar me aperfeiçoando e melhorando minhas habilidades para poder concluir projetos cada vez mais interessantes e dinâmicos.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [mdn web docs_](https://developer.mozilla.org/pt-BR/) - Esse site foi de grande ajuda para mim, com documentação a respeito do JS e de suas propriedades e funcionalidades, pude tirar dúvidas nesse desafio em relação especialmente ao innerText.
+- [ChatGPT](https://chatgpt.com/) - Esse foi um recurso que me ajudou posibilitando acesso a informações e explicações a cerca dos conteúdos bem como me trazendo exemplosde ussos das propriedades que esta em dúvida.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Portifólio - [Wellisson Lima](https://wellissonlima.github.io/portifolio-wl/)
+- Frontend Mentor - [@WellissonLima](https://www.frontendmentor.io/profile/WellissonLima)
+- GitHub - [@WellissonLima](https://github.com/WellissonLima)
